@@ -6,6 +6,7 @@
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+min-height: 100vh;
 }
 .card{
     border-radius: 15px 15px 15px 15px;

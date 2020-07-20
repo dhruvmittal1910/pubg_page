@@ -5,8 +5,18 @@
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-
+overflow: hidden;
 }
 body{
     height: 100%;
+}
+
+#four{
+    width: 100%;
+}
+
+.prevWin-container{
+    box-sizing: border-box;
+    display: block;
+    padding: 5%;
 }
