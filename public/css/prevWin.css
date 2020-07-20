@@ -9,6 +9,7 @@ overflow: hidden;
 }
 body{
     min-height: 100vh;
+    height: auto;
 }
 
 #four{
