@@ -3,7 +3,7 @@
 
   html,
 body {
-  min-height: 100vh;
+  
   font-family: 'Poppins', sans-serif;
 }
 
@@ -41,7 +41,8 @@ body {
 
 
 .background-index{
-  height: 100%;
+  min-height: 100vh;
+  height: auto;
   padding-top: 5%;
   position: relative;
   background-image: linear-gradient(black,rgb(88, 7, 88),black);
