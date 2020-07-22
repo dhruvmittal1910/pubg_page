@@ -1,6 +1,7 @@
 const express=require("express");
 const bodyParser=require("body-parser");
 const ejs=require("ejs");
+const PORT = process.env.PORT || 2000;
 
 const app=express();
 
@@ -38,8 +39,8 @@ app.get("/matchSch",function(req,res){
 app.get("/admin",function(req,res){
     res.render("admin");
 })
-app.listen(process.env.PORT || 1000,function(){
-    console.log("server running on port 1000");
+app.listen(PORT,function(){
+    console.log(`server running on port ${PORT}`);
     
 })
   
