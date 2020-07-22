@@ -29,7 +29,7 @@ body {
 
 input.index[type=tel] {
   background-color: rgb(233, 207, 233);
-  color: white;
+  color: black;
 }
 .background-index{
   min-height: 100vh;

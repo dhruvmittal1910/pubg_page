@@ -20,11 +20,11 @@ form {
 }
 input.details[type=text] {
   background-color: rgb(233, 207, 233);
-  color: white;
+  color: black;
 }
 input.details[type=number] {
   background-color: rgb(233, 207, 233);
-  color: white;
+  color: black;
 }
 body{
 
