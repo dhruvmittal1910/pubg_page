@@ -1,14 +1,14 @@
+
 .background-admin{
     background-image: linear-gradient(black,rgb(228, 101, 101),black);
+    min-height: 100vh;
+    height: auto;
 }
-input.admin[type=text] {
+select.admin{
     background-color: rgb(226, 202, 202);
     color: black;
   }
-  input.admin[type=tel] {
-    background-color: rgb(226, 202, 202);
-    color:black;
-  }
+ 
   .form-signin .admin {
     position: relative;
     box-sizing: border-box;

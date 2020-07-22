@@ -8,13 +8,26 @@
     
       <h1 style="color: whitesmoke;"  class="h3 mb-3 font-weight-normal"><strong>ADMIN</strong></h1><br>
      
-      <input type="text"  class="form-control admin" placeholder="Match Type (Classic/TDM)" required autofocus>
+      <select name="matchType" class="form-control admin"id="">
+            <option value="classic">classic</option>
+            <option value="tdm">TDM</option>
+      </select>
+ 
 <br>
-      <input type="text"  class="form-control admin" placeholder="MAP(not required for TDM)" required autofocus>
+      <select name="map" class="form-control admin" id="map">
+            <option value="erangel">erangel</option>
+            <option value="miramar">miramar</option>
+            <option value="vikendi">vikendi</option>
+            <option value="sanhok">sanhok</option>
+            <option value="livik">livik</option>
+      </select> 
 <br>
-      <input type="text"  class="form-control admin" placeholder="squad/solo/duo" required autofocus>
-<br>
-      <input type="tel"  class="form-control admin" placeholder="Mobile Number" required autofocus>
+      <select name="match" class="form-control admin" id="match">
+            <option value="squad">squad</option>
+            <option value="solo">solo</option>
+            <option value="duo">duo</option>
+          </select>
+
      <br><br>
     
      
