@@ -26,12 +26,17 @@ app.get("/tournDetails",function(req,res){
 app.get("/leaderboard",function(req,res){
     res.render("leaderboard");
 })
-app.get("/prevWin",function(req,res){
-    res.render("prevWin");
+app.get("/prevMatch",function(req,res){
+    res.render("prevMatch");
 
 })
 app.get("/matchSch",function(req,res){
     res.render("matchSch");
+
+})
+
+app.get("/admin",function(req,res){
+    res.render("admin");
 })
 app.listen(process.env.PORT || 1000,function(){
     console.log("server running on port 1000");
