@@ -39,6 +39,10 @@ app.get("/matchSch",function(req,res){
 app.get("/admin",function(req,res){
     res.render("admin");
 })
+
+app.get("/profile",function(req,res){
+    res.render("profile");
+})
 app.listen(PORT,function(){
     console.log(`server running on port ${PORT}`);
     
